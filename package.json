@@ -1,6 +1,6 @@
 {
   "name": "average-rate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/moving-average-with-rate.min.js",
   "unpkg": "dist/umd/moving-average-with-rate.min.js",
@@ -12,7 +12,7 @@
     "clean": "rm -rf dist",
     "prebuild": "npm run clean",
     "build": "NODE_ENV=production webpack",
-    "prepare":"npm run build"
+    "prepare": "npm run build"
   },
   "files": [
     "src/",
