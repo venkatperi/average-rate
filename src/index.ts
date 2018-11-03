@@ -1,7 +1,6 @@
 import { MovingAverageWithRate } from "./MovingAverageWithRate"
 
-export default MovingAverageWithRate
-
+export { MovingAverageWithRate }
 
 declare global {
     interface Window {
