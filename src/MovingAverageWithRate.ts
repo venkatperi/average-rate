@@ -67,3 +67,4 @@ export class MovingAverageWithRate {
         return [this.average, this.rate]
     }
 }
+
