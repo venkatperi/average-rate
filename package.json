@@ -1,0 +1,21 @@
+{
+  "name": "average-rate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/MovingAverageWithRate.js",
+  "unpkg": "dist/umd/MovingAverageWithRate.js",
+  "browser": "dist/umd/MovingAverageWithRate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:cjs": "tsc --module commonjs",
+    "build:umd": "tsc --module umd --outDir dist/umd",
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "build": "npm run build:cjs && npm run build:umd"
+  },
+  "author": "Venkat Peri <venkatperi@gmail.com> (http://www.vperi.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.1.6"
+  }
+}
