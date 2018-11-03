@@ -32,7 +32,7 @@ export class MovingAverageWithRate {
 
     constructor(opts: MAROptions = {}) {
         Object.assign(this, opts)
-        if (!(this.windowSize && this.windowDuration)) {
+        if (!(this.windowSize || this.windowDuration)) {
             throw new Error("At a minimum, window size or duration must be" +
                 " specified")
         }
