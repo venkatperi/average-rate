@@ -1,6 +1,6 @@
 {
   "name": "average-rate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/moving-average-with-rate.min.js",
   "unpkg": "dist/umd/moving-average-with-rate.min.js",
